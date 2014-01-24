@@ -3,13 +3,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 @import 'sass-bootstrap/lib/bootstrap';
 
 body {
+    padding-top: 52px;
     padding-bottom: 300px;
 }
 
 nav.dic-sidebar {
     margin-top: 5px;
     margin-bottom: 5px;
-    top: 20px;
 }
 
 ul.dic-sidebar {
