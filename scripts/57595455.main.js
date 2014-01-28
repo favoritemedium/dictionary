@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#animation").on("click",".anim-block",function(){var a=$(this),b=a.text()+" animated";a.removeClass(b).addClass(b).one("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd",function(){$(this).removeClass(b)})}),$("#tooltips button").tooltip()});
