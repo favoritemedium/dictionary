@@ -1,4 +1,6 @@
 
+'use strict';
+
 $(document).ready(function(){
     $('#animation').on('click', '.anim-block', function(){
         var $el = $(this);
@@ -12,4 +14,5 @@ $(document).ready(function(){
 
     $('#tooltips button').tooltip();
     $('#popover button').popover();
+    $('[data-datetimepicker]').datetimepicker();
 });

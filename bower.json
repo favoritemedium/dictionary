@@ -5,7 +5,8 @@
     "sass-bootstrap": "~3.0.0",
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
-    "animate.css": "~3.0.0"
+    "animate.css": "~3.0.0",
+    "eonasdan-bootstrap-datetimepicker": "~2.1.30"
   },
   "devDependencies": {}
 }
