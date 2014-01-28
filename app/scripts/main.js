@@ -9,4 +9,6 @@ $(document).ready(function(){
                 $(this).removeClass(cls);
             });
     });
+
+    $('#tooltips button').tooltip();
 });
