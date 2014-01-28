@@ -11,4 +11,5 @@ $(document).ready(function(){
     });
 
     $('#tooltips button').tooltip();
+    $('#popover button').popover();
 });
